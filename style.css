@@ -20,6 +20,8 @@
     padding: 29px 67px;
     min-height: 290px;
     background-color: #cdd8fd;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px grey;
 }
 
 label {
@@ -28,19 +30,19 @@ label {
     line-height: 78px;
 }
 
-#temp {
-    width: 110px;
+#input {
+    width: 200px;
     height: 34px;
     border-radius: 5px;
     margin: 12px;
-    padding: 8px;
+    padding: 10px;
     font-size: 20px;
     font-weight: 500;
     border: none;
     outline: none;
 }
 
-#temp_diff {
+#unit {
     width: 120px;
     height: 34px;
     border-radius: 5px;
@@ -51,18 +53,19 @@ label {
     outline: none;
 }
 
-#submit {
+button {
     width: 100px;
     border-radius: 5px;
     margin: 30px 0 20px 0;
     font-size: 18px;
-    background-color: rgb(218 229 220);
-    padding: 5px;
+    background-color: #557cfd;
+    padding: 10px;
     transition: all 0.5s ease;
+    border: none;
 }
 
-#submit:hover{
-    background-color: antiquewhite;
+button:hover{
+    background-color: rgb(161, 165, 252);
     cursor: pointer;
 }
 
